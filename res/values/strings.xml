@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">移动警务系统</string>
+    <string name="action_settings">Settings</string>
+	<string name="username">帐号</string>
+	<string name="password">密码</string>
+	<string name="remname">记住账号</string>
+	<string name="rempass">记住密码</string>
+	<string name="login">登  入</string>
+	<string name="register">注册帐号?</string>
+	<string name="register_btn">注册</string>
+	<string name="news">实况事件</string>
+	<string name="defaulttitle">浙江工业大学小报</string>
+	<string name="defaultnews">浙江工业大学食堂惊现超大鸡腿</string>
+	<string name="people">今日天气</string>
+	<string name="search">查询</string>
+	<string name="location">地点</string>
+	<string name="title">标题</string>
+	<string name="filepath">选择图片</string>
+	<string name="loc_and_title">地点或标题</string>
+	<string name="dingwei">定位</string>
+	<string name="follow">跟随</string>
+	<string name="luopan">罗盘</string>
+	<string name="about">关于</string>
+	<string name="feture">功能介绍</string>
+	<string name="register_feture">注册功能</string>
+	<string name="login_feture">登入功能</string>
+	<string name="main_feture">主界面，实况实时获取</string>
+	<string name="search_feture">查询功能</string>
+	<string name="event_feture">我的全部事件</string>
+	<string name="people_feture">便民天气</string>
+	<string name="location_feture">定位功能</string>
+	<string name="send">发布消息</string>
+	<string name="look">查看消息</string>
+	<string name="gethelp">请求支援</string>
+	<string name="help_list">请求支援信息</string>
+	<string name="event_check">查看事件</string>
+	<string name="event_realease">发布事件</string>
+	<string name="version">移动警务系统 \nversion_1.0.0</string>
+	<string name="weixin">警局微信号:policeweixin</string>
+	<string name="weixin_content">欢迎各位警员关注我们的警局官方微信</string>
+	<string name="content">内容</string>
+</resources>

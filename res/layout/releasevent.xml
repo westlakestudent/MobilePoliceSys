@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:text="@string/event_realease" 
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="#7EC0EE"/>
+    <Button 
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_gravity="right"
+        android:background="@drawable/camera"
+        android:id="@+id/camera"/>
+    </FrameLayout>
+    <EditText
+        android:id="@+id/event_release_title"
+        android:background="@drawable/login_edit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dip"
+        android:hint="@string/title"
+        android:layout_width="300dip"
+        android:layout_height="40dip"/>
+    
+    <EditText
+        android:id="@+id/event_release_content"
+        android:background="@drawable/login_edit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dip"
+        android:gravity="start"
+        android:hint="@string/content"
+        android:layout_width="300dip"
+        android:layout_height="100dip"/>
+    
+    <EditText
+        android:focusable="false"
+        android:id="@+id/event_release_filepath"
+        android:background="@drawable/login_edit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dip"
+        android:hint="@string/filepath"
+        android:layout_width="300dip"
+        android:layout_height="40dip"/>
+    <Button 
+        android:id="@+id/event_release_btn"
+        android:layout_width="300dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dip"
+        android:text="@string/event_realease"
+        android:background="@drawable/btn_login"/>
+</LinearLayout>

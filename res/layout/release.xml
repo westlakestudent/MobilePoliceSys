@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:background="#C1CDC1" >
+    
+	 <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="#87CEFA"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/send"/>
+	 
+	 <EditText
+        android:id="@+id/msg"
+        android:hint="@string/send"
+        android:layout_width="280dip"
+        android:layout_height="120dip"
+        android:gravity="start"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login_edit"
+        android:layout_marginTop="20dip"/>
+	 <Button 
+        android:id="@+id/send"
+        android:textSize="20sp"
+        android:layout_width="140dip"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dip"
+        android:background="@drawable/btn_login"
+        android:text="@string/send"/>
+    
+</LinearLayout>

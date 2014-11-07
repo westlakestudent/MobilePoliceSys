@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TabHost 
+	     xmlns:android="http://schemas.android.com/apk/res/android"
+	     android:id="@android:id/tabhost"
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+   >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.12"
+            android:textAlignment="gravity" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone"
+            />
+       <RadioGroup android:gravity="center_vertical"
+			android:layout_gravity="bottom" 
+			android:orientation="horizontal"
+			 android:id="@+id/help_main_radio"
+			 android:background="@drawable/back"
+			android:layout_width="fill_parent" 
+			android:layout_height="50dip"			
+			>
+
+			<RadioButton
+			    android:id="@+id/help_radio_button0"
+			    style="@style/tab"
+			    android:layout_marginTop="1.0dip"
+			    android:tag="radio_button0"
+			    android:text="@string/gethelp" />
+
+			<RadioButton
+			    android:id="@+id/help_radio_button1"
+			    style="@style/tab"
+			    android:layout_marginTop="1.0dip"
+			    android:tag="radio_button1"
+			    android:text="@string/help_list" />
+		</RadioGroup>
+    </LinearLayout>
+
+</TabHost>
+
